@@ -1,0 +1,19 @@
+{
+  "name": "calculateduedate",
+  "version": "0.1.0",
+  "description": "due date calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/renzHUN/calculateDueDate.git"
+  },  "author": "Tibor Toth",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-datetime": "^1.4.1",
+    "mocha": "^2.4.5"
+  }
+}
